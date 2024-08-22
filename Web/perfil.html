@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>perfil - Infinity 8</title>
+    <link rel="stylesheet" href="../Css/perfil.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <div class="grid-container">
+      <header>
+        <a href="home.html" id="100"
+          ><img src="../Assets/logo.png" id="imagem-cabecalho"
+        /></a>
+      </header>
+
+      <main>
+        <div class="left-section">
+          <a href="home.html"
+            ><img src="../Assets/icone_home.png" />
+            <a href="home.html" class="home">Home</a></a
+          >
+          <a href="explorar.html"
+            ><img src="../Assets/icone_explorar.png" />
+            <a href="explorar.html" class="explorar">Explorar</a></a
+          >
+          <a href="ajuda.html"
+            ><img src="../Assets/icone_ajuda.png" />
+            <a href="ajuda.html" class="ajuda">Ajuda</a></a
+          >
+        </div>
+
+        <div class="center-section">
+          <div class="container">
+            <div class="profile-main">
+              <img src="../Assets/perfil_image.jpg" href="perfil.html" />
+              <h1>Nome do Usuário</h1>
+            </div>
+
+
+            <hr />
+
+            <div class="bio">
+              <h2>Bio</h2>
+              <div class="user-bio">
+                <p id="p-bio">Esta é sua Bio, escreva algo sobre você.</p>
+                <button onclick="alternarEdicao()">Editar</button>
+              </div>
+            </div>
+
+            <hr />
+
+            <div class="groups">
+
+             <h2>Talentos:</h2>
+
+             <!--Aqui vão ser adicionados os icones dos Talentos-->
+
+              <div class="group">
+                <img src="../Assets/talento_bateria.png" />
+              </div>
+
+              <div class="group">
+                <img src="../Assets/talento_computador-gamers.png" />
+              </div>
+
+              <div class="group">
+                <img src="../Assets/talento_controle-gamers.png" />
+              </div>
+
+              <div class="group">
+                <img src="../Assets/talento_exel.png" />
+              </div>
+
+            </div>
+
+            <hr />
+
+            <div class="groups">
+              <h2>Grupos:</h2>
+
+              <!--Aqui vão ser adicionados os icones dos Grupos-->
+
+              <div class="group">
+                <img src="../Assets/grupo_musica.jpg" />
+              </div>
+
+              <div class="group">
+                <img src="../Assets/grupo_video-game.png" />
+              </div>
+
+              <div class="group">
+                <img src="../Assets/grupo_microsoft-365.png" />
+              </div>
+            
+
+              <hr />
+
+              <h2 style="padding-bottom: 20px;">Publicações:</h2>
+            </div>
+
+            <div id="postagem">
+              <p>Bem-vindo!</p>
+              <textarea placeholder="No que está pensando?"></textarea>
+              <input style="display: none;" type="file" id="file-image" />
+              <button class="botão-postagem">Criar postagem</button>
+            </div>
+
+            <div class="post" id="post">
+              <div class="post-content">
+                <div class="foto-empresa">
+                </div>
+              </div>
+            </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="right-section"></div>
+      </main>
+
+      <footer>
+        <p>
+          Desenvolvido por &copy;
+          <a
+            href="https://www.linkedin.com/in/ca%C3%ADque-almeida-amaral-00800626b/"
+            target="_blank"
+            >Caíque Almeida Amaral</a
+          >
+          e
+          <a
+            href="https://www.linkedin.com/in/ana-julia-firme-813029249"
+            target="_blank"
+          >
+            Ana Júlia Firme</a
+          >.
+        </p>
+      </footer>
+    </div>
+  </body>
+  <script src="../Js/script.js"></script>
+</html>

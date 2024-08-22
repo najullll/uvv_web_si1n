@@ -1,0 +1,290 @@
+/* Eestilo CSS*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo Geral */
+
+.grid-container {
+  height: 100%;
+}
+
+i {
+  margin: 10px;
+  position: absolute;
+}
+
+h1 {
+  padding: 20px;
+}
+
+p {
+  padding: 20px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+button {
+  background-color: #003366;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* BODY */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+/* HEADER */
+
+header {
+  background-color: #003366;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+  position: fixed;
+  width: 100%;
+}
+
+#imagem-cabecalho {
+  display: block;
+  margin: 0; /*Talvez seja auto*/
+  width: 20%;
+}
+
+/* MAIN */
+
+main {
+  display: flex;
+  border-left: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  height: 100%;
+  padding-top: 5%; /* PODE SER AUTO OU UM VALOR DEFINIDO POR PX COMO 87px OU COM PORCENTAGEM 10%*/
+}
+
+/* ESQUERDA*/
+
+.left-section {
+  width: 20%;
+  padding: 10px;
+  background-color: #f5f8fa;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza horizontalmente */
+}
+
+.left-section img {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+}
+
+.left-section > a {
+  color: #003366;
+  text-decoration: none;
+}
+
+.left-section a + a {
+  margin-top: 10px;
+}
+
+/* CENTRO */
+
+.center-section {
+  width: 80%;
+  padding: 10px;
+  background-color: white;
+}
+
+/* DIREITA */
+
+.right-section {
+  width: 20%;
+  padding: 10px;
+  background-color: #f5f8fa;
+}
+
+.right-section a {
+  display: block;
+  background-color: #003366;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.right-section a:hover {
+  background-color: #0055a7;
+}
+
+.profile-pic {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.profile-pic img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Explorar */
+
+.user-input {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.user-input textarea {
+  flex: auto;
+  height: 40px;
+  box-sizing: border-box;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: none;
+}
+
+.user-input button {
+  margin-left: 10px;
+  height: 40px;
+  padding: 10px 20px;
+  background-color: #003366;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.user-input button:hover {
+  background-color: gray;
+}
+
+.tudo-group {
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  overflow-x: 0;
+  width: 80%;
+}
+
+.group-img {
+  max-width: 60%;
+  height: auto;
+}
+
+.group-name {
+  margin-top: 20px;
+}
+
+.group-entrar {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #003366;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 83px;
+  height: 38px;
+}
+
+.group-unico {
+  padding: 25px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.group-unico + .group-unico {
+  margin-left: 20px;
+}
+
+.coluna1-talento {
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  overflow-x: 0;
+  width: 80%;
+}
+
+.coluna2-talento {
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  overflow-x: 0;
+  width: 80%;
+}
+
+.talento-img {
+  max-width: 60%;
+  height: auto;
+}
+
+.talento-name {
+  margin-top: 20px;
+}
+
+.talento-entrar {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #003366;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 83px;
+  height: 38px;
+}
+
+.talento-unico {
+  padding: 25px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.talento-unico + .talento-unico {
+  margin-left: 20px;
+}
+
+.active {
+  background-color: #b22222;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #003366;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  padding: 15px;
+}
+
+footer p,
+footer a {
+  color: white;
+}
